@@ -7,7 +7,7 @@
 
 
 from scapy.all import *
-from netfilterqueue import NetfilterQueue
+from netfilterqueue import NetfilterQueue # type: ignore
 from datetime import datetime
 
 info = {}
